@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./pwdicon.css">
+</head>
+<body>
+    
+
+    <fieldset>
+        <legend>SignUp</legend>
+        <input type="password" id="pwd" placeholder="Enter Password">
+
+        <!--& onclick -->
+        <!-- <i class="fa fa-eye" id="i" aria-hidden="true" onclick="togglePassword()"></i> -->
+        <!-- <label for="i" onclick="togglePassword()">Show Password</label> -->
+
+        <!--& onmouse up and on mouse down -->
+        <i class="fa fa-eye" id="i" aria-hidden="true" onmousedown="togglePassword()" onmouseup="togglePassword()"></i>
+        <label for="i" onmousedown="togglePassword()" onmouseup="togglePassword()">Show Password</label>
+
+    </fieldset>
+
+<script src="./pwdicon.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#product
+{
+    width: 100%;
+    height: 100%;
+    /* border: 10px solid greenyellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box
+{
+    border: .2px solid black;
+    border-radius: 10px;
+    width: 600px;
+    height: 380px;
+    margin: 10px;
+    display: flex;
+}
+
+.box:hover
+{
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+#pic
+{
+    /* border: 2px solid orange; */
+    width: 200px;
+    height: 80%;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+#pic img
+{
+    width: 90%;
+    height: 60%;
+    box-shadow: 2px 2px 10px 2px black;
+    border-radius: 4px;
+    padding: 10px;
+    transition: all 2s .2s;
+}
+
+.box:hover img
+{
+    transform: matrix(0.586,0.8,-0.8,0.586,40,30);
+    /* transform: skewY(10deg); */
+    /* transform: skewY(10deg); */
+}
+
+#details
+{
+    /* border: 2px solid rgb(38, 0, 255); */
+    width: 400px;
+    height: 100%;
+}
+
+#top
+{
+    /* border:  2px solid rebeccapurple; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+#title
+{
+    /* border: 2px solid green; */
+    width: 73%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 5px;
+    line-height: 22px;
+}
+
+#title h4
+{
+    /* text-align: justify; */
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+
+#price
+{
+    /* border: 2px solid blue; */
+    width: 85px;
+    height: 66px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 7px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+#description
+{
+    /* border: 2px solid hotpink; */
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+    padding: 10px;
+    line-height: 20px;
+}
+
+

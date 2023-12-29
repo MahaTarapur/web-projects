@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./fveg1.css">
+</head>
+<body>
+    
+    <form action="" onsubmit="return validation(event)">
+
+        <div class="ff">
+            <div class="fname">
+                <input id="fname" type="text" placeholder="First Name">
+            </div>
+            <div class="lname">
+                <input id="lname" type="text" placeholder="Last Name">
+            </div>
+            <div class="email">
+                <input id="email" type="email" placeholder="Email Id">
+            </div>
+            <div class="pwd">
+                <input id="pwd" type="password" placeholder="Password">
+            </div>
+            <div class="error">
+                Error Message
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="signup">
+                <button>Sign Up</button>
+            </div>
+            <!-- <div class="login">
+                <button>Login</button>
+            </div> -->
+        </div>
+
+    </form>
+
+    <script src="./fveg1.js"></script>
+</body>
+</html>

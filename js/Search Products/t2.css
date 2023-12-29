@@ -1,0 +1,64 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table::
+{
+    border: .5px solid black;
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+tr
+{
+    border: .5px solid rgb(173, 255, 47);
+}
+
+th
+{
+    border: .5px solid palevioletred;
+    font-style: italic;
+    font-size: 25px;
+    height: 30px;
+    padding: 10px;
+}
+
+td
+{
+    border: .5px solid purple;
+    font-style: italic;
+    font-size: 25px;
+    padding: 5px;
+}
+
+td img
+{
+    height: 200px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+form input
+{
+    width: 50%;
+    height: 30px;
+    position: relative;
+    left: 253px;
+    top: 30px;
+}
+
+button
+{
+    height: 30px;
+    width: 60px;
+    position: relative;
+    left: 254px;
+    top: 32px;
+    width: 121px;
+    font-style: italic;
+    font-size: 20px;
+}
