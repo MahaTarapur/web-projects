@@ -1,0 +1,65 @@
+a
+{
+    color: red;
+}
+
+p
+{
+    color: red;
+}
+
+a,p
+{
+    color: green;
+}
+
+p.clr
+{
+    color: pink;
+}
+
+.colo
+{
+    color: maroon;
+}
+
+#mon
+{
+    color: aqua;
+}
+
+input
+{
+    background-color: rgb(19, 2, 48);
+}
+
+input[required]
+{
+ background-color: yellow;
+}
+
+div a
+{
+    color: chartreuse;
+}
+
+div>a
+{
+    color: blue;
+}
+
+div+a
+{
+    color: fuchsia;
+}
+
+div~a
+{
+    color: black;
+}
+
+*
+{
+    color: red;
+}
+

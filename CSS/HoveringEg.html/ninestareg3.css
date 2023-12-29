@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Montserrat", sans-serif;;
+}
+
+body,html
+{
+    width: 100%;
+}
+
+.nav
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 32px;
+    color: #0c2e8a;
+}
+
+p
+{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.785);
+}
+
+
+.btn
+{
+ border: 1px solid black;
+ display: inline-block;
+ height: 30px;
+ width: 50px;
+ text-align: center;
+ padding: 5px;
+ background-color: #dad2d2ce;
+ font-size: 14px;
+ /* border-radius: 4px; */
+ margin-top: 20px;
+ margin-right: 10px;
+ box-shadow: 2px 2px 15px rgb(127 126 126 / 38%);
+}
+
+.btn a
+{
+    text-decoration: none;
+    color: #444;
+}
+
+section
+{
+    /* border: 2px solid black; */
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.border
+{
+    /* border: 2px solid purple; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card
+{
+    /* border: 1px solid pink; */
+    height: 270px;
+    width: 380px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pic
+{
+    height: 270px;
+    width: 380px;
+    transition: transform .3s;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.shadow
+{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 0%;
+    background-color: #50d8af;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: height .4s;
+}
+
+.text
+{
+    color: white;
+    padding: 12px;
+    margin-left: 6px;
+}
+
+h4
+{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.text p
+{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.937);
+}
+
+.icon
+{
+    color: rgba(255, 255, 255, 0.597);
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+
+.icon i
+{
+    margin-left: 10px;
+}
+
+.card:hover .shadow
+{
+    height: 30%;
+}
+
+.card:hover .pic
+{
+    transform: translate(0px,-25px);
+}

@@ -1,0 +1,145 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:"Roboto", sans-serif;
+}
+
+html,body
+{
+    width: 100%; 
+}
+
+.nav li
+{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+div li a
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.532);
+    margin-left: 16px;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    
+}
+
+.btn
+{
+    color: white;
+    background-color: #3fbbc0;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.logo
+{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-right: 280px;
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: bold;
+}
+
+.content
+{
+
+padding: 20px;
+height: 460px;
+width: 100%;
+background-image: url(https://bootstrapmade.com/demo/templates/Medicio/assets/img/slide/slide-1.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100% 120%;
+background-attachment: fixed;
+margin-top: 13px;
+}
+
+.content .content-info
+{
+    border-top: 4px solid #3fbbc0;
+    background-color: rgba(255, 255, 255, 0.861);
+    text-align: center;
+    color: black;
+    width: 95%;
+    margin: 120px auto;
+    /* border: 2px solid red; */
+    padding: 30px;
+    
+
+}
+
+
+.content .content-info a
+{
+    background-color:#3fbbc0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 32px;
+    font-size:14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    margin-top: 200px;
+    font-family: "Roboto", sans-serif;
+    
+
+}
+
+.content .content-info h2
+{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+    color: rgba(0, 0, 0, 0.763);
+    font-size: 31px;
+}
+
+.content .content-info p
+{
+    color: rgb(99, 99, 99);
+    font-family:"Open Sans", sans-serif;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+thead
+{
+    background-color:#3fbbc0;
+    display:block;
+    width: 500%;
+    height: 30%;
+    color: white;
+    padding: 9px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+thead td a
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 730px;
+}
+
+thead td p
+{
+    margin-left: 70px;
+}
+
+img
+{
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+}

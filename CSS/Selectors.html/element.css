@@ -1,0 +1,17 @@
+p
+{
+    color: blueviolet;
+    font-family: Arial;
+}
+
+h1
+{
+    font-size: 20px;
+    color: darkorange;
+}
+
+a
+{
+    color: darkcyan;
+    text-transform: capitalize;
+}

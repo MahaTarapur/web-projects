@@ -1,0 +1,14 @@
+/* Adjacent Sibling Selector */
+
+div+a
+{
+    font-style: italic;
+    color: black;
+}
+
+/* General Sibling Selector */
+
+/* div~a
+{
+    color: brown;
+} */

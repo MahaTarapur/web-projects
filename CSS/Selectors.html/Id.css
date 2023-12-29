@@ -1,0 +1,14 @@
+#one
+{
+    font-style: italic;
+    /* text-shadow: 3px 2px 1px orchid;color: darkred; */
+    color: green;
+}
+
+.two
+{
+    text-decoration: underline;text-decoration-style: wavy;
+    font-family: cursive;
+    font-size: 20px;
+    color: orange;
+}

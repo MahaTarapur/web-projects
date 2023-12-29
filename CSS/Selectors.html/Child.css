@@ -1,0 +1,15 @@
+/* Descendent Child */
+
+div a
+{
+    font-size: 30px;
+    color: crimson;
+}
+
+/* Direct Child */
+
+div>p
+{
+    color: sandybrown;
+    font-style: italic;
+}

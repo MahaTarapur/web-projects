@@ -1,0 +1,13 @@
+p.first
+{
+    font-family: Geneva;
+    font-style: italic;
+    font-size: 40px;
+}
+
+h1.second
+{
+    font-family: tahoma;
+    font-size: 60px;
+    text-shadow: 2px 2px 1px lime;color: maroon;
+}

@@ -1,0 +1,147 @@
+*
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+html,body
+{
+    width: 100%;
+    background-color: rgba(149, 146, 146, 0.295);
+}
+
+.border
+{
+    /* border: 2px solid saddlebrown; */
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.para
+{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.box
+{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.info
+{
+    /* border: 2px solid rgb(171, 186, 36); */
+    height: 500px;
+    width: 32%;  
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    background-color: white;
+    padding: 60px 5px;
+    
+}
+
+.form
+{
+    /* border: 2px solid rgb(106, 226, 92); */
+    height: 500px;
+    width: 62%;
+    margin-left: 30px;
+    background-color: white;
+}
+
+.detail
+{
+    /* border: 2px solid purple; */
+    height:120px;
+    width: 90%;
+    margin-left: 30px;
+}
+
+p
+{
+    margin-top: 10px;
+    margin-left: 60px;
+    line-height: 20px;
+}
+
+h3
+{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+
+.ne
+{
+    /* border: 2px solid yellow; */
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-wrap: wrap;
+    align-items: center;  
+    
+
+}
+
+.name, .email
+{
+   width: 50%;
+}
+
+input[required]
+{
+    width: 95%;
+    margin-left: 10px;
+    height: 40px;
+}
+
+
+.message
+{
+    /* border: 2px solid powderblue; */
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 3px;
+    
+}
+
+div a
+{
+    background-color: rgb(15, 176, 15);
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+.btn
+{
+    text-align: center;
+    margin: 30px auto;
+}
+
+.subject
+{
+    /* border: 2px solid orangered; */
+    height: 100px;
+    width: 104%;
+}
+
+input[minlength]
+{
+    margin: 30px 10px;
+    height: 40px;
+    width: 94%;
+    
+}
+
+
+
+

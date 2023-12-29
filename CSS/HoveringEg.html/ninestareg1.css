@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html
+{
+    width: 100%;
+}
+
+.heading
+{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #4e4039;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav
+{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.list
+{
+    display: inline-block;
+}
+
+li
+{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: color .2s .2s;
+}
+
+.l1
+{
+    color: #eb5d1e;
+}
+
+.list:hover li
+{
+    color: #eb5d1e;
+}
+
+section
+{
+    /* border: 2px solid black; */
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.border
+{
+    /* border: 2px solid purple; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.card
+{
+    /* border: 1px solid pink; */
+    width: 390px;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.pic,img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.shadow
+{
+    width: 0%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(128, 128, 128, 0.79);
+    position: absolute;
+    right: 0px;
+    overflow: hidden;
+    transition: width .4s ;
+    border-radius: 6px;
+}
+
+.icon
+{
+    width: 30%;
+    height: 0%;
+    /* border: 1px solid red; */
+    display: flex;
+    position: absolute;
+    top: 0px;
+    margin-top: 130px;
+    margin-left: 140px;
+    justify-content: space-evenly;
+}
+
+.i
+{
+    background-color: white;
+    color: #eb5d1e;
+    height: 30px;
+    width: 29px;
+    padding: 8px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.name
+{
+    width: 100%;
+    height: 0%;
+    /* border: 1px solid green; */
+    font-family: serif;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    bottom: 0px;
+    transition: height .4s;
+    color: white;
+}
+
+.i:hover 
+{
+    background-color: #eb5d1e;
+    color: white;
+}
+
+.card:hover .shadow
+{
+   width: 100%; 
+}
+
+.card .shadow:hover .name
+{
+    height: 30%;
+}
+
+.card:hover .icon
+{
+    height: 70%;
+}

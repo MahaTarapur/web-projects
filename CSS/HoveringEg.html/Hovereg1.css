@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div
+{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 370px;
+    margin: 20px;
+    display: inline-block;
+}
+
+h2
+{
+    text-align: center;
+}
+
+.b1 img
+{
+    height: 100%;
+    width: 100%;
+    filter: blur(5px);
+    transition: all .5s;
+    opacity: 0.9;
+}
+
+.b1:hover img
+{   
+    filter: none;
+    opacity: 1;
+}
+
+.b2 img
+{
+    height: 100%;
+    width: 100%;
+    filter: brightness(30%);
+    transition: all .5s;
+    opacity: 0.9;
+}
+
+.b2:hover img
+{   
+    filter: none;
+    opacity: 1;
+}
+
+.b3 img
+{
+    height: 100%;
+    width: 100%;
+    filter: contrast(200%);
+    transition: all .5s;
+    opacity: 0.9;
+}
+
+.b3:hover img
+{   
+    filter: none;
+    opacity: 1;
+}
+
+.b4 img
+{
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(15px 20px 10px gray);
+    transition: all .5s;
+    opacity: 0.9;
+}
+
+.b4:hover img
+{   
+    filter: none;
+    opacity: 1;
+}
+
+.b5 img
+{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: all .5s;
+    opacity: 0.9;
+}
+
+.b5:hover img
+{   
+    filter: none;
+    opacity: 1;
+}
+
+.b6 img
+{
+    height: 100%;
+    width: 100%;
+    filter: hue-rotate(150deg);
+    transition: all .5s;
+    opacity: 0.9;
+}
+
+.b6:hover img
+{   
+    filter: none;
+    opacity: 1;
+}
+
+.b7 img
+{
+    height: 100%;
+    width: 100%;
+    filter: invert(100%);
+    transition: all .5s;
+    opacity: 0.9;
+}
+
+.b7:hover img
+{   
+    filter: none;
+    opacity: 1;
+}
+
+.b8 img
+{
+    height: 100%;
+    width: 100%;
+    filter: opacity(30%);
+    transition: all .5s;
+    opacity: 0.9;
+}
+
+.b8:hover img
+{   
+    filter: none;
+    opacity: 1;
+}
+
+.b9 img
+{
+    height: 100%;
+    width: 100%;
+    filter: saturate(9);
+    transition: all .5s;
+    opacity: 0.9;
+}
+
+.b9:hover img
+{   
+    filter: none;
+    opacity: 1;
+}
+
+.b10 img
+{
+    height: 100%;
+    width: 100%;
+    filter: sepia(150%);
+    transition: all .5s;
+    opacity: 0.9;
+}
+
+.b10:hover img
+{   
+    filter: none;
+    opacity: 1;
+}
+
